@@ -37,7 +37,9 @@ export default function SplashScreen() {
       ]),
     ]).start()
     // navigate after splash delay
-    const timer = setTimeout(() => router.replace('/'), 2000)
+    const timer = setTimeout(() => {
+      router.replace('/')
+    }, 2000)
     return () => clearTimeout(timer)
   }, [router, trans1, trans2, op1, op2])
 
@@ -92,10 +94,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   line: {
-    fontSize: 36,
+    fontSize: 48,
     fontWeight: 'bold',
     textAlign: 'center',
-    lineHeight: 40,
+    lineHeight: 52,
   },
   subtitle: {
     position: 'absolute',

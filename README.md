@@ -49,3 +49,22 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 # QuickDeals
+
+## Development Progress
+
+### Work Needed
+
+- Scraping without getting banned for being automated
+- Correct pricing
+
+### Completed Fixes
+
+- Fixed navigation state color to improve app navigation clarity.
+
+### Known Issues
+
+- **Splash screen not visible on iOS devices**: The splash screen does not appear as expected when launching the app on iOS.
+
+### How to Contribute
+
+If you encounter bugs or have suggestions, Then what are you doing you are cofounder for a reason.
